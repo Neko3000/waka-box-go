@@ -11,7 +11,7 @@ import (
 	"strings"
 	"unicode/utf8"
 
-	"github.com/YouEclipse/wakatime-go/pkg/wakatime"
+	"github.com/Neko3000/wakatime-go/pkg/wakatime"
 	"github.com/google/go-github/github"
 )
 
@@ -125,7 +125,7 @@ func (b *Box) UpdateMarkdown(ctx context.Context, title, filename string, conten
 	newMd.Write(content)
 	newMd.WriteString("\n")
 	newMd.WriteString("```\n")
-	newMd.WriteString("<!-- Powered by https://github.com/YouEclipse/waka-box-go . -->\n")
+	newMd.WriteString("<!-- Powered by https://github.com/neko3000/waka-box-go . -->\n")
 	newMd.Write(after)
 
 	err = ioutil.WriteFile(filename, newMd.Bytes(), os.ModeAppend)

@@ -1,3 +1,5 @@
+github.com/Neko3000/wakatime-go v0.2.1 h1:8n72spZeGMnyEkDs+9p2pwDnwARU6JPSETlnxc1cmRw=
+github.com/Neko3000/wakatime-go v0.2.1/go.mod h1:4asGj4clZKV2q7Xz28o9jrXjARsAIXJHK+BbrRy+Qmw=
 github.com/YouEclipse/wakatime-go v0.1.0 h1:bZpb2cCWWU4cuid+uCR2DRG0PluQJRsMR0dOR+V0Hts=
 github.com/YouEclipse/wakatime-go v0.1.0/go.mod h1:h4Y4peXcOv5faIKMvWAao9FCSWxxD8jU7hKtIib2fNA=
 github.com/YouEclipse/wakatime-go v0.1.1 h1:NT6O3iw7SNPI5OG40eVrpTR/f6uCNmvpH8u3koc4kQY=
